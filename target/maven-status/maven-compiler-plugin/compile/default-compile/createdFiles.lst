@@ -1,0 +1,16 @@
+godigit\qa\ecom\factory\DriverFactory.class
+godigit\qa\ecom\factory\OptionsManager.class
+godigit\qa\ecom\utils\ElementUtil.class
+godigit\qa\ecom\pages\SearchPage.class
+godigit\qa\ecom\pages\Test.class
+godigit\qa\ecom\utils\JavaScriptUtil.class
+godigit\qa\ecom\listeners\TestAllureListener.class
+godigit\qa\ecom\listeners\AnnotationTransformer.class
+godigit\qa\ecom\listeners\Retry.class
+godigit\qa\ecom\listeners\ExtentReportListener.class
+godigit\qa\ecom\utils\ExcelUtil.class
+godigit\qa\ecom\pages\ProductInfoPage.class
+godigit\qa\ecom\pages\LoginPage.class
+godigit\qa\ecom\constants\AppConstants.class
+godigit\qa\ecom\pages\AccountsPage.class
+godigit\qa\ecom\pages\RegisterPage.class

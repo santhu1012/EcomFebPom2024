@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Ecom App Test Regression Suite" thread-count="4"
+    parallel ="tests" verbose="4">
+    
+    <listeners>
+        <listener
+        
+        class-name="godigit.qa.ecom.listeners.ExtentReportListener" />
+        
+        <listener
+        
+        class-name="godigit.qa.ecom.listeners.TestAllureListener" />
+        
+        <listener
+        
+        class-name="godigit.qa.ecom.listeners.AnnotationTransformer" />
+        
+        
+    </listeners>
+        
+        
+    <test name="Login Page Test">
+        <classes>
+            <class name="godigit.qa.ecom.tests.LoginPageTest"/>
+        </classes>
+        </test>
+    
+     <test name="Accounts Page Test">
+        <classes>
+            <class name="godigit.qa.ecom.tests.AccountsPageTest"/>
+        </classes>
+        </test>
+        
+         <test name="Product Info Page Test">
+        <classes>
+            <class name="godigit.qa.ecom.tests.ProductPageInfoTest"/>
+        </classes>
+        </test>
+        
+         <test name="Register Page Test">
+        <classes>
+            <class name="godigit.qa.ecom.tests.RegisterPageTest"/>
+        </classes>
+        </test>
+    
+    
+    </suite>
+    
+    
+    
+    

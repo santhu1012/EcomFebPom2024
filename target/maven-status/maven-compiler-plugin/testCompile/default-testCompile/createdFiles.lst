@@ -1,0 +1,5 @@
+godigit\qa\ecom\tests\LoginPageTest.class
+godigit\qa\ecom\tests\AccountsPageTest.class
+godigit\qa\ecom\tests\ProductPageInfoTest.class
+godigit\qa\ecom\tests\RegisterPageTest.class
+godigit\qa\opencart\base\BaseTest.class
