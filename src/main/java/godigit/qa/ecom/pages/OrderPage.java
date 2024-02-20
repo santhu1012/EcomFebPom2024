@@ -10,4 +10,9 @@ public class OrderPage {
 	{
 		System.out.println("get order");
 	}
+	
+	public void getPrice()
+	{
+		System.out.println("get price");
+	}
 }
