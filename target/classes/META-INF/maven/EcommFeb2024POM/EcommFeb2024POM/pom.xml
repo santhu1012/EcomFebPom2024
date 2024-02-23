@@ -70,10 +70,10 @@
         </dependency>
         
         <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-testng</artifactId>
-            <version>2.12.0</version>
-        </dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.13.5</version>
+</dependency>
 
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -82,8 +82,20 @@
         </dependency>
         
 
-  
-  
+   <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.12</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.22.1</version>
+    <scope>test</scope>
+</dependency>
+
+ 
   </dependencies>
   
   <build>

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="godigit.qa.ecom.tests.ProductPageInfoTest">
+      <class name="godigit.qa.ecom.tests.AccountsPageTest">
         <methods>
+          <include name="accPageTitleTest"/>
+          <include name="accPageSetup"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="productInfoPageSetup"/>
-          <include name="productImagesCountTest" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- godigit.qa.ecom.tests.ProductPageInfoTest -->
+      </class> <!-- godigit.qa.ecom.tests.AccountsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
